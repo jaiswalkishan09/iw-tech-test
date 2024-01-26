@@ -1,0 +1,19 @@
+{
+  "name": "iw-tech-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx tsc && cd dist && node index.js"
+  },
+  "author": "Kishan Jaiswal",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "@types/convert-excel-to-json": "^1.7.4",
+    "convert-excel-to-json": "^1.7.0"
+  }
+}
